@@ -174,11 +174,11 @@ body {
     margin-bottom: 16px;
 }
 .s2 .main span{
-    display: black;
+    display: block;
     width:32.4%;
     position: absolute;
-    bottom:136px;
-    left:50%;
+    bottom:117px;
+    left:48%;
     margin-left: -60px;
     border-radius: 12px;
     background: linear-gradient(to right,#00e7f9,#80fa96);
