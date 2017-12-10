@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -40,7 +45,7 @@ body {
 
 /* .s1*/
 
-.s1 {
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -78,13 +83,118 @@ body {
     margin-left: -30%;
 }
 /*文字部分*/
-.main{
+.s1 .main{
     position: absolute;
     top:30%;
 }
-.main img:nth-of-type(1){
+.s1 .main img:nth-of-type(1){
     width:40%;
 }
-.main img:nth-of-type(2){
+.s1 .main img:nth-of-type(2){
     width:80%;
+}
+.s1 .main .img9{
+    background: url("../img/9.png");
+    width: 207px;
+    height: 24px;
+    background-size: cover;
+    margin: auto;
+}
+.s1 .footer{
+    color: white;
+    position: absolute;
+    bottom:70px;
+    left:0;
+    width:100%;
+
+}
+.s1 .footer h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #00d7b2;
+}
+.s1 .footer p:nth-of-type(1){
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #00d7b2;
+}
+.s1 .footer p:nth-of-type(2){
+    height: 70px;
+    position: absolute;
+}
+.s1 .footer img{
+    height: 70px;
+    position: absolute;
+    left:-80px;
+}
+.s2{
+    color: #00f0c3;
+}
+.s2 h2{
+    padding-top: 25px;
+    font-size: 24px;
+}
+.s2 h2::before{
+    content: '';
+    background: url("../img/14.png");
+    background-size: cover;
+    width:83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left:10%;
+    top: 50px;
+}
+.s2 h2::after{
+    content: '';
+    background: url("../img/13.png");
+    background-size: cover;
+    width:83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left:70%;
+    top: 50px;
+}
+.s2 .main{
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 90%;
+    margin: auto;
+    padding:20px;
+    margin-top: 20px;
+}
+.s2 small{
+    letter-spacing: 5px;
+}
+.s2 .main p{
+    text-align: left;
+}
+.s2 .main p:nth-of-type(3){
+    margin-bottom: 16px;
+}
+.s2 .main span{
+    display: black;
+    width:32.4%;
+    position: absolute;
+    bottom:136px;
+    left:50%;
+    margin-left: -60px;
+    border-radius: 12px;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    text-align: center;
+    color:#08001d;
+}
+.s2 .footer{
+    color: white;
+    position: absolute;
+    bottom:70px;
+    left:0;
+    width:100%;
+
+}
+.s2 .footer img{
+    height: 70px;
+    position: absolute;
+    left:-80px;
 }
