@@ -58,29 +58,34 @@ body {
     width: 35px;
     top: 120px;
     left: 50px;
+    animation:rotateIn infinite;
 }
 
 .s1 .header img:nth-of-type(2){
     width: 65px;
     top: 90px;
     right: 40px;
+    animation:rotateIn infinite;
 }
 
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     right: 50px;
     bottom: 210px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(5){
     left: 50%;
     top: 25%;
     width: 60%;
     margin-left: -30%;
+    animation:rotateIn infinite;
 }
 /*文字部分*/
 .s1 .main{
@@ -99,6 +104,7 @@ body {
     height: 24px;
     background-size: cover;
     margin: auto;
+    margin-top: 20px;
 }
 .s1 .footer{
     color: white;
