@@ -35,12 +35,28 @@ body {
 .swiper-button-next {
     position: absolute;
     top: auto;
-    bottom: 5%;
+    bottom: 2%;
     left: 50%;
     right: auto;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    cursor: pointer;
+    background-size: 17px 34px;
+    animation: footbutton 2s infinite;
 }
+@keyframes footbutton {
+    0%{
+        bottom: 2%;
+        opacity: 1;
+    }
+    100%{
+        bottom: 5%;
+        opacity: 0;
+    }
+}
+
 
 
 /* .s1*/
