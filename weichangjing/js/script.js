@@ -12,7 +12,7 @@ var swiper = new Swiper('.swiper-container', {
 
     // 前进按钮
     navigation: {
-        nextEl: '.swiper-button-next',
+        nextEl: '.swiper-button-next'
     },
     on:{
         init: function(){
@@ -23,7 +23,18 @@ var swiper = new Swiper('.swiper-container', {
             swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
         }
     }
-});
+})
 
+//音乐
+var mp3 = document.querySelector("#mp3");
+var mp3btn = document.querySelector("#mp3btn");
 
-
+mp3btn.addEventListener('click', function () {
+    if (mp3.paused) {
+        mp3.play()
+        mp3btn.style.animationPlayState = 'running';
+    } else {
+        mp3.pause()
+        mp3btn.style.animationPlayState = 'paused';
+    }
+})
