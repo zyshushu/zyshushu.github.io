@@ -1,0 +1,2 @@
+browser-sync start --server --files "css/style.css, js/script.js, index.html"
+背景图和div一样大用：background-size:100% 100%;
