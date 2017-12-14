@@ -1,2 +1,5 @@
 browser-sync start --server --files "css/style.css, js/script.js, index.html"
 背景图和div一样大用：background-size:100% 100%;
+让图片适应div：给图片img的宽高100%
+横着的虚线<hr style="height:1px;border:none;border-top:1px dashed #0066CC;" />
+竖虚线<div style="border-left: 1px dashed #000;height:100%;line-height:1px;"></div>

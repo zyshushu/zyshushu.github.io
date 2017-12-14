@@ -656,6 +656,7 @@ body {
     font-weight: bold;
     font-style: Consolas;
     margin-top: 10px;
+    animation: fadeInRight;
 }
 .s7 .footer{
     color: white;
