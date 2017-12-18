@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+}
+
+/*自定义样式  - 开始*/
+
+/*向下翻页的按钮*/
+.swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: 2%;
+    left: 50%;
+    right: auto;
+    margin-left: -13.5px;
+    transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    cursor: pointer;
+    background-size: 17px 34px;
+}
+@keyframes footbutton {
+    0%{
+        bottom: 2%;
+        opacity: 1;
+    }
+    100%{
+        bottom: 5%;
+        opacity: 0;
+    }
+}
+/*音乐部分*/
+#mp3btn{
+    position: absolute;
+    top:5%;
+    right:5%;
+    text-align: center;
+    background: rgba(64, 53, 53, 0.21);
+    z-index: 100;
+    margin:-25px -6px;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    border:5px rgba(175,175,175,0.3) solid;
+    animation: mp3key 2s linear infinite;
+}
+#mp3btn img{
+    width: 14px;
+}
+@keyframes mp3key {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.head img{
+   width: 200px;
+    height:20px;
+    float: left;
+}
+
